@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--purpleText:#511d83;
+--yellowText:#f0b241;
+--whiteText: white;
+--mainFont:"Montserrat", sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+header {
+  height: 12vh;
+  width: 100%;
+  background-color:var(--whiteText) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+header a img {
+    height:50px ;
+    width: 50px;
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--mainFont);
+    color: var(--purpleText);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+nav ul button {
+    width: 250px;
+    height: 10px;
+    border: none;
+    background-color:var(--whiteText);
+}
+
+nav ul button a{
+    font-family: var(--mainFont);
+    text-decoration: none;
+    color: var(--yellowText);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+main {
+    height: 70vh;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+}
+
+main img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
