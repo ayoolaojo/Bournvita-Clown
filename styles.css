@@ -109,6 +109,21 @@ main {
     bottom: 7rem;
 }
 
+.hamburger-menu {
+  color: var(--deepPuprleText);
+  font-size: 2rem;
+  display: none;
+}
+
+
+@media (max-width:480px) {
+   
+  .hamburger-menu {
+    display: block;
+  }
+  
+}
+
 
 
 
