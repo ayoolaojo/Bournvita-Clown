@@ -131,6 +131,10 @@ main {
       display: block;
     }
 
+    #hero {
+      max-width: 100%;
+    }
+
 
 
   
