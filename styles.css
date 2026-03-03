@@ -115,14 +115,34 @@ main {
   display: none;
 }
 
-
-@media (max-width:480px) {
+/* 
+@media (max-width:768px) {
    
   .hamburger-menu {
     display: block;
-  }
+  } */
+
+  @media (max-width: 480px) {
+
+    nav {
+      display: none;
+    }
+    header .hamburger-menu {
+      display: block;
+    }
+
+
+
+  
+  
+    
   
 }
+
+
+
+
+
 
 
 
