@@ -131,8 +131,8 @@ main {
       display: block;
     }
 
-    #hero {
-      max-width: 100%;
+    #hero p span {
+      display: none;
     }
 
 
