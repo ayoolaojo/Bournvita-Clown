@@ -131,7 +131,7 @@ main {
       display: block;
     }
 
-    #hero p span {
+    #hero p  {
       display: none;
     }
 
